@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Dancing Script", cursive; */
+
+/* Common Style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primaryColor: rgb(255, 255, 255);
+    --secondaryColor: rgba(255, 255, 255, 0.5);
+    --brandColor: rgb(230, 83, 60);
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+section {
+    width: 80%;
+    margin: 44px auto;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.common-paragraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 2.5rem;
+    background: rgb(230, 83, 60);
+    color: var(--primaryColor);
+    padding: 16px 32px;
+    border: none;
+
+}
+
+/* header part css start */
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(35, 35, 35, 0) 100%), linear-gradient(360.00deg, rgb(17, 17, 17), rgba(35, 35, 35, 0) 100%);
+    padding-top: 2rem;
+}
+
+.logo {
+    color: var(--brandColor);
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 3rem;
+    border: 1px solid lightgray;
+    border-radius: 3rem;
+   
+}
+
+.navbar > ul > li > a {
+    color: var(--secondaryColor);
+    
+}
+.navbar ul li{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.active {
+    background-color: var(--brandColor);
+    border-radius: 3rem;
+   
+}
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner-description{
+ margin: auto 0;
+}
+.banner-description p {
+    margin: 28px 0;
+}
+.banner-title {
+    color: rgb(255, 255, 255);
+
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.banner-title span {
+    font-family: "Dancing Script", cursive;
+}
+.download-btn{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid var(--primaryColor);
+    margin-left: 14px;
+}
+.banner-img img{
+  float: right;
+}
+/* header part css end */
