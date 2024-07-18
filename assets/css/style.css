@@ -31,6 +31,7 @@ li a {
 body {
     font-family: "Inter", sans-serif;
 }
+
 .common-paragraph {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
@@ -42,7 +43,8 @@ body {
     border-radius: 2.5rem;
     background: rgb(230, 83, 60);
     color: var(--primaryColor);
-    padding: 16px 32px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
     border: none;
 
 }
@@ -205,34 +207,65 @@ header {
 main {
     background-color: rgb(0, 0, 0);
 }
+
 /* habit part css start */
-.habit{
+.habit {
     padding: 50px 0;
 }
-.habit-description{
+
+.habit-description {
     text-align: center;
 }
-.habit-description p{
+
+.habit-description p {
     margin: 14px 0 50px;
 }
-.habit-card-container{
+
+.habit-card-container {
     display: flex;
     gap: 2rem;
 }
-.habit-card{
+
+.habit-card {
     text-align: center;
 }
-.habit-card h5{
+
+.habit-card h5 {
     font-size: 1.2rem;
     font-weight: 900;
     color: var(--primaryColor);
     margin: 30px 0 5px;
 }
-.habit-card img{
+
+.habit-card img {
     border-radius: 50%;
     border: 5px solid rgb(26, 26, 26);
 }
 
 /* habit part css end */
+/* Run Extra mile part css start */
+.run {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    border-radius: 1rem;
+    background: rgb(34, 34, 34);
+    padding: 2rem 2.5rem;
+    margin: 50px 0;
+}
 
+.run-img {
+    text-align: end;
+}
+
+.run-img img {
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+}
+.run-description p{
+    margin: 1rem 0 2rem;
+}
+
+/* Run Extra mile part css end */
 /* main part css end */

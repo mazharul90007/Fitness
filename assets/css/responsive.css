@@ -1,4 +1,17 @@
 @media screen and (max-width: 576px) {
+    /* common style css start */
+    .common-paragraph {
+        font-size: 0.8rem;
+    }
+    .heading-primary{
+        font-size: 2rem;
+    }
+    .btn-primary {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+    
+    }
+    /* common style css end */
     .navbar ul{
         display: none;
     }
@@ -37,6 +50,15 @@
 /* main part responsive start */
 .habit-card-container{
     flex-direction: column;
+}
+
+.run{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    margin: 20px 0;
+}
+.run-img img{
+    width: 100%;
 }
 /* main part responsive end */
 
