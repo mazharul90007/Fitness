@@ -12,9 +12,6 @@
     .banner-title{
         font-size: 2rem;
     }
-    /* .banner-card01 h3 {
-        font-size: 1rem;
-    } */
     .banner-img img {
         margin: 0 auto;
     }
@@ -37,6 +34,10 @@
     .download-btn {
        margin: 0px;
     }
-
+/* main part responsive start */
+.habit-card-container{
+    flex-direction: column;
+}
+/* main part responsive end */
 
 }

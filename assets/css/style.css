@@ -23,7 +23,7 @@ li a {
     text-decoration: none;
 }
 
-section {
+.container {
     width: 80%;
     margin: 0 auto;
 }
@@ -31,7 +31,6 @@ section {
 body {
     font-family: "Inter", sans-serif;
 }
-
 .common-paragraph {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
@@ -45,6 +44,19 @@ body {
     color: var(--primaryColor);
     padding: 16px 32px;
     border: none;
+
+}
+
+.heading-primary {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.heading-secondary {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
 
 }
 
@@ -86,7 +98,8 @@ header {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
-.hamburger-icon{
+
+.hamburger-icon {
     font-size: 1.5rem;
     display: none;
 }
@@ -95,6 +108,7 @@ header {
     background-color: var(--brandColor);
     border-radius: 3rem;
 }
+
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -119,10 +133,12 @@ header {
 .banner-title span {
     font-family: "Dancing Script", cursive;
 }
-.banner-btn{
+
+.banner-btn {
     display: flex;
     gap: 8px;
 }
+
 .download-btn {
     background-color: rgb(0, 0, 0);
     border: 1px solid var(--primaryColor);
@@ -143,7 +159,8 @@ header {
     border: 1px solid var(--secondaryColor);
     border-radius: 1rem;
     position: absolute;
-    background: rgba(255, 255, 255, 0.1);background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: 30px;
 }
 
@@ -188,5 +205,34 @@ header {
 main {
     background-color: rgb(0, 0, 0);
 }
+/* habit part css start */
+.habit{
+    padding: 50px 0;
+}
+.habit-description{
+    text-align: center;
+}
+.habit-description p{
+    margin: 14px 0 50px;
+}
+.habit-card-container{
+    display: flex;
+    gap: 2rem;
+}
+.habit-card{
+    text-align: center;
+}
+.habit-card h5{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--primaryColor);
+    margin: 30px 0 5px;
+}
+.habit-card img{
+    border-radius: 50%;
+    border: 5px solid rgb(26, 26, 26);
+}
+
+/* habit part css end */
 
 /* main part css end */
