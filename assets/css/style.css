@@ -25,7 +25,7 @@ li a {
 
 section {
     width: 80%;
-    margin: 44px auto;
+    margin: 0 auto;
 }
 
 body {
@@ -39,6 +39,7 @@ body {
 }
 
 .btn-primary {
+    font-family: "Inter", sans-serif;
     border-radius: 2.5rem;
     background: rgb(230, 83, 60);
     color: var(--primaryColor);
@@ -50,7 +51,7 @@ body {
 /* header part css start */
 header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(35, 35, 35, 0) 100%), linear-gradient(360.00deg, rgb(17, 17, 17), rgba(35, 35, 35, 0) 100%);
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 
 .logo {
@@ -64,39 +65,49 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 0;
 }
 
 .navbar ul {
     display: flex;
     gap: 3rem;
     border: 1px solid lightgray;
+    padding: 3px;
     border-radius: 3rem;
-   
+
 }
 
-.navbar > ul > li > a {
+.navbar>ul>li>a {
     color: var(--secondaryColor);
-    
+
 }
-.navbar ul li{
+
+.navbar ul li {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+.hamburger-icon{
+    font-size: 1.5rem;
+    display: none;
+}
+
 .active {
     background-color: var(--brandColor);
     border-radius: 3rem;
-   
 }
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.banner-description{
- margin: auto 0;
+
+.banner-description {
+    margin: auto 0;
 }
+
 .banner-description p {
     margin: 28px 0;
 }
+
 .banner-title {
     color: rgb(255, 255, 255);
 
@@ -108,12 +119,74 @@ header {
 .banner-title span {
     font-family: "Dancing Script", cursive;
 }
-.download-btn{
+.banner-btn{
+    display: flex;
+    gap: 8px;
+}
+.download-btn {
     background-color: rgb(0, 0, 0);
     border: 1px solid var(--primaryColor);
-    margin-left: 14px;
 }
-.banner-img img{
-  float: right;
+
+.banner-img {
+    position: relative;
 }
+
+.banner-img img {
+    float: right;
+    margin-right: 50px;
+}
+
+.banner-card01,
+.banner-card02 {
+    padding: 1rem;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 1rem;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: 30px;
+}
+
+.banner-card01 {
+    right: 0;
+    bottom: 300px;
+}
+
+.banner-card01 h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--primaryColor);
+}
+
+.banner-card02 {
+    bottom: 63px;
+    right: 280px;
+}
+
+.banner-card02-items {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.banner-card02 .circle {
+    padding: 10px;
+    background-color: var(--brandColor);
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.banner-card02-description h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--primaryColor);
+}
+
 /* header part css end */
+/* main part css start */
+main {
+    background-color: rgb(0, 0, 0);
+}
+
+/* main part css end */

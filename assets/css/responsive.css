@@ -1,0 +1,42 @@
+@media screen and (max-width: 576px) {
+    .navbar ul{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    /* .banner-card01 h3 {
+        font-size: 1rem;
+    } */
+    .banner-img img {
+        margin: 0 auto;
+    }
+     .banner-card01{
+        right: 0;
+        bottom: 450px;
+        padding: 10px;
+     }
+     .banner-card01 > h3, .banner-card02 > h3{
+        font-size: 1.5rem;
+     }
+     .banner-card01 > p, .banner-card02 > p{
+        font-size: 14px;
+     }
+    .banner-card02 {
+        bottom: 220px;
+        right: 180px;
+        padding: 10px;
+    }
+    .download-btn {
+       margin: 0px;
+    }
+
+
+}
