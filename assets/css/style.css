@@ -376,7 +376,9 @@ td {
     text-align: center;
     margin: 80px 0;
 }
-
+.team-description p{
+    margin-top: 1rem;
+}
 .team-card-identity h5 {
     font-size: 1.25rem;
     color: var(--primaryColor);
