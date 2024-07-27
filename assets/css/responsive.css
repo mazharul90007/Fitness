@@ -86,7 +86,15 @@
     .run-img img {
         width: 100%;
     }
-
+    .room-description{
+        width: 100%;
+    }
+    .room-image-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .room-img .overlay{
+        font-size: 1rem;
+    }
     .bmi-calculator-description {
         margin: 40px 0;
     }

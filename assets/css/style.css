@@ -270,6 +270,89 @@ main {
 }
 
 /* Run Extra mile part css end */
+/* More Room part css start */
+.room-description{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.room-description p{
+    margin: 16px 0 30px;
+}
+.room-image-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.room-img img{
+    width: 100%;
+    height: 100%;
+}
+.room-img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+.room-img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:  rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: linear 0.3s;
+    color: var(--brandColor);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.room-img:hover .overlay{
+    opacity: 1;
+    width: 50%;
+    border-radius: 16px;
+}
+
+/* .room1{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background: url(../images/room1.jpg);
+    background-position: center;
+
+}
+.room2{
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    background: url(../images/room2.jpg);
+    background-position: center;
+}
+.room3{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    background: url(../images/room3.jpg);
+    background-position: center;
+}
+.room4{
+    grid-column: 1;
+    grid-row: 2 / span 3;
+    background: url(../images/room4.jpg);
+    background-position: center;
+}
+.room5{
+    grid-column: 2;
+    grid-row: 3 / span 2;
+    background: url(../images/room5.jpg);
+    background-position: center;
+}
+.room6{
+    grid-column: 3;
+    grid-row: 2 / span 3;
+    background: url(../images/room6.jpg);
+    background-position: center;
+} */
+/* More Room part css end */
 /* BMI part css start */
 .bmi-calculator-description {
     margin: 70px 0 70px 300px;
