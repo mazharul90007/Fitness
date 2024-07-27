@@ -271,10 +271,72 @@ main {
 /* Run Extra mile part css end */
 /* BMI part css start */
 .bmi-calculator-description {
-    margin: 100px 0 100px 300px;
+    margin: 70px 0 70px 300px;
     text-align: left;
 }
+.bmi-calculator-description p{
+    margin-top: 16px;
+}
+.bmi-items-container {
+    background-color: rgb(34, 34, 34);
+    padding: 50px 0;
+}
+.bmi-calculator-items{
+    display: flex;
+}
+.bmi-calculator-chart{
+    width: 50%;
+}
+.bmi-calculator-chart table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.bmi-calculator-chart table th {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: start;
+}
+.bmi-calculator-chart table{
+    border-collapse: collapse;
+    margin: 3rem 0;
+}
+.bmi-calculator-chart th, td{
+    padding: 1rem;
+}
 
+.bmi-calculator-chart table td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+.bmi-calculator{
+    width: 50%;
+}
+.bmi-calculator p{
+    margin: 15px 0 30px;
+}
+.bmi-calculator-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 35px;
+}
+.bmi-calculator-form input, .bmi-calculator-form select{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(57, 57, 57);
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.bmi-calculator-form input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+.activity{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
 /* BMI part css end */
 /* Team part css start */
 .team {

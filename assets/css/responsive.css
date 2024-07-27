@@ -48,7 +48,7 @@
        margin: 0px;
     }
 /* main part responsive start */
-.habit-card-container, .footer-content, .footer-items{
+.habit-card-container, .footer-content, .footer-items, .bmi-calculator-items{
     flex-direction: column;
 }
 
@@ -60,15 +60,25 @@
 .run-img img{
     width: 100%;
 }
-.team-card-area{
+.bmi-calculator-description {
+    margin: 40px 0;
+}
+.team-card-area, .bmi-calculator-form{
     grid-template-columns: repeat(1, 1fr);
+}
+.activity{
+    grid-column: 1;
+    grid-row: 5;
 }
 /* main part responsive end */
 .footer-logo{
     margin-bottom: 30px;
     width: 100%;
 }
-.footer-items{
+.footer-items, .bmi-calculator, .bmi-calculator-chart{
     width: 100%;
 }
+
+
+
 }
