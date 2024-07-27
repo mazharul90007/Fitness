@@ -35,28 +35,34 @@
 
     .banner-img img {
         margin: 0 auto;
+        width: 100%;
+        height: auto;
     }
 
     .banner-card01 {
         right: 0;
-        bottom: 450px;
+        bottom: 400px;
         padding: 10px;
     }
 
-    .banner-card01>h3,
     .banner-card02>h3 {
+        font-size: 1.25rem;
+    }
+
+    .banner-card01>h3 {
         font-size: 1.5rem;
     }
 
     .banner-card01>p,
     .banner-card02>p {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .banner-card02 {
-        bottom: 220px;
-        right: 180px;
+        bottom: 150px;
+        right: 140px;
         padding: 10px;
+        width: 130px;
     }
 
     .download-btn {
