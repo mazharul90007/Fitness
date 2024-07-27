@@ -1,83 +1,111 @@
 @media screen and (max-width: 576px) {
+
     /* common style css start */
     .common-paragraph {
         font-size: 0.8rem;
     }
-    .heading-primary{
+
+    .heading-primary {
         font-size: 2rem;
     }
+
     .btn-primary {
         padding: 0.8rem 1.5rem;
         font-size: 0.8rem;
-    
+
     }
+
     /* common style css end */
-    .navbar ul{
+    .navbar ul {
         display: none;
     }
-    .hamburger-icon{
+
+    .hamburger-icon {
         display: block;
     }
-    .banner{
+
+    .banner {
         display: flex;
         flex-direction: column;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 2rem;
     }
+
     .banner-img img {
         margin: 0 auto;
     }
-     .banner-card01{
+
+    .banner-card01 {
         right: 0;
         bottom: 450px;
         padding: 10px;
-     }
-     .banner-card01 > h3, .banner-card02 > h3{
+    }
+
+    .banner-card01>h3,
+    .banner-card02>h3 {
         font-size: 1.5rem;
-     }
-     .banner-card01 > p, .banner-card02 > p{
+    }
+
+    .banner-card01>p,
+    .banner-card02>p {
         font-size: 14px;
-     }
+    }
+
     .banner-card02 {
         bottom: 220px;
         right: 180px;
         padding: 10px;
     }
-    .download-btn {
-       margin: 0px;
-    }
-/* main part responsive start */
-.habit-card-container, .footer-content, .footer-items, .bmi-calculator-items{
-    flex-direction: column;
-}
 
-.run{
-    grid-template-columns: repeat(1, 1fr);
-    gap: 16px;
-    margin: 20px 0;
-}
-.run-img img{
-    width: 100%;
-}
-.bmi-calculator-description {
-    margin: 40px 0;
-}
-.team-card-area, .bmi-calculator-form{
-    grid-template-columns: repeat(1, 1fr);
-}
-.activity{
-    grid-column: 1;
-    grid-row: 5;
-}
-/* main part responsive end */
-.footer-logo{
-    margin-bottom: 30px;
-    width: 100%;
-}
-.footer-items, .bmi-calculator, .bmi-calculator-chart{
-    width: 100%;
-}
+    .download-btn {
+        margin: 0px;
+    }
+
+    /* main part responsive start */
+    .habit-card-container,
+    .footer-content,
+    .footer-items,
+    .bmi-calculator-items {
+        flex-direction: column;
+    }
+
+    .run {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        margin: 20px 0;
+    }
+
+    .run-img img {
+        width: 100%;
+    }
+
+    .bmi-calculator-description {
+        margin: 40px 0;
+    }
+
+    .team-card-area,
+    .bmi-calculator-form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .activity {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    /* main part responsive end */
+    .footer-logo {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .footer-items,
+    .bmi-calculator,
+    .bmi-calculator-chart {
+        width: 100%;
+    }
 
 
 
