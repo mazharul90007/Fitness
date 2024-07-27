@@ -60,6 +60,9 @@
 .run-img img{
     width: 100%;
 }
+.team-card-area{
+    grid-template-columns: repeat(1, 1fr);
+}
 /* main part responsive end */
 
 }
