@@ -314,44 +314,6 @@ main {
     width: 50%;
     border-radius: 16px;
 }
-
-/* .room1{
-    grid-column: 1;
-    grid-row: 1 / span 2;
-    background: url(../images/room1.jpg);
-    background-position: center;
-
-}
-.room2{
-    grid-column: 2;
-    grid-row: 1 / span 3;
-    background: url(../images/room2.jpg);
-    background-position: center;
-}
-.room3{
-    grid-column: 3;
-    grid-row: 1 / span 2;
-    background: url(../images/room3.jpg);
-    background-position: center;
-}
-.room4{
-    grid-column: 1;
-    grid-row: 2 / span 3;
-    background: url(../images/room4.jpg);
-    background-position: center;
-}
-.room5{
-    grid-column: 2;
-    grid-row: 3 / span 2;
-    background: url(../images/room5.jpg);
-    background-position: center;
-}
-.room6{
-    grid-column: 3;
-    grid-row: 2 / span 3;
-    background: url(../images/room6.jpg);
-    background-position: center;
-} */
 /* More Room part css end */
 /* BMI part css start */
 .bmi-calculator-description {
@@ -429,6 +391,7 @@ td {
     padding: 13px 20px;
     border: none;
     border-radius: 8px;
+    outline: none;
 }
 
 .bmi-calculator-form input::placeholder {
